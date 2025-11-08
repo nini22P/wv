@@ -87,7 +87,7 @@ pub enum SizeHint {
 /// Webview wrapper
 #[derive(Clone)]
 pub struct Webview {
-    inner: Arc<webview_t>,
+   pub inner: Arc<webview_t>,
 }
 
 unsafe impl Send for Webview {}
